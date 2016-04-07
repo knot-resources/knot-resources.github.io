@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800,800italic,900|Pacifico);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F7F7F7;
+}
+
+.header {
+	background-color: #356062;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 0;
+	color: #F7F7F7;
+}
+
+.splash {
+	margin-bottom: 0;
+	background-image: url('../img/grow.png');
+	color: white;
+}
+
+.splash img {
+	width: 100%;
+	height: auto;
+}
+
+.splash p {
+	text-align: center;
+}
+
+.header p {
+	padding-top: 5px;
+	padding-bottom: 0px;
+	font-size: 1.2em;
+}
+
+.main {
+	margin: auto;
+	max-width: 100%;
+}
+
+.main img {
+	width: 100%;
+	height: auto;
+}
+
+.contact {
+	background-color: #356062;
+}
+
+#knot-logo {
+	height: 100px;
+}
