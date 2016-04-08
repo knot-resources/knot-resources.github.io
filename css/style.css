@@ -7,10 +7,24 @@ body {
 
 .header {
 	background-color: #356062;
-	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	text-align: center;
 	margin-bottom: 0;
 	color: #F7F7F7;
+}
+
+.social-media {
+	text-align: right;
+	padding-left: 5px;
+	margin-top: -5px;
+}
+
+@media (max-width: 960px) {
+	.social-media {
+		text-align: center;
+		margin-top: 0px;
+	}
 }
 
 .splash {
