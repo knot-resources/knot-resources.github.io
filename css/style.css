@@ -17,7 +17,7 @@ body {
 .social-media {
 	text-align: right;
 	padding-left: 5px;
-	margin-top: -5px;
+	margin-top: -30px;
 }
 
 @media (max-width: 960px) {
@@ -103,9 +103,13 @@ body {
 }
 
 .backed {
-	margin-top: 20px;
+	background-color: #113C3E;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	text-align: center;
 	font-size: 1.2em;
+	color: white;
 }
 
 #fifty {
