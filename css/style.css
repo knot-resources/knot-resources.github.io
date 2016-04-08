@@ -42,7 +42,6 @@ body {
 
 .splash p {
 	text-align: center;
-	padding-top: 20px;
 	font-size: 1.5em;
 }
 
@@ -63,12 +62,26 @@ body {
 .main img {
 	width: 100%;
 	height: auto;
+	padding-bottom: 10px;
 }
 
 .main p {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
+}
+
+.main h2 {
+	text-align: center;
+}
+
+.contact h2 {
+	color: white;
+	text-align: left;
+}
+
+#who {
+	background-color: #D4DCDC;
 }
 
 .container-header {
@@ -78,6 +91,23 @@ body {
 
 .contact {
 	background-color: #356062;
+	color: white;
+}
+
+input {
+	max-width: 300px;
+}
+
+textarea {
+	max-width: 300px;
+}
+
+.form {
+	padding-left: 20px;
+}
+
+.form-control {
+	border-radius: 0;
 }
 
 #knot-logo {
