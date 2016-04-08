@@ -68,7 +68,11 @@ body {
 .main p {
 	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
+}
+
+.main .col-md-5 {
+	padding-bottom: 30px;
 }
 
 .main h2 {
@@ -98,12 +102,19 @@ body {
 	text-align: left;
 }
 
+.backed {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
 #fifty {
-	max-width: 250px;
+	margin-top: 10px;
+	max-width: 150px;
 }
 
 #phone {
-	font-size: 0.8em;
+	font-size: 0.em;
 }
 
 .footer {
