@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800,800italic,900|Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-color: #F7F7F7;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .splash p {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .header p {
@@ -92,6 +92,28 @@ body {
 .contact {
 	background-color: #356062;
 	color: white;
+}
+
+.contact p {
+	text-align: left;
+}
+
+#fifty {
+	max-width: 250px;
+}
+
+#phone {
+	font-size: 0.8em;
+}
+
+.footer {
+	margin-bottom: 0;
+	background-color: white;
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
 }
 
 input {
