@@ -29,7 +29,8 @@ body {
 
 .splash {
 	margin-bottom: 0;
-	background-image: url('../img/grow.png');
+	background-image: url('../img/knot.jpg');
+	background-position: center;
 	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -68,6 +69,10 @@ body {
 .main p {
 	padding-top: 10px;
 	padding-bottom: 20px;
+}
+
+#what p {
+	text-align: center;
 }
 
 .main .col-md-5 {
