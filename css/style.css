@@ -158,6 +158,7 @@ textarea {
 	padding-bottom: 1px;
 	padding-left: 10px;
 	padding-right: 10px;
+	font-size: 1.4em;
 }
 
 .quote {
@@ -184,6 +185,20 @@ textarea {
 
 #knot-logo {
 	height: 100px;
+}
+
+#ubxd-logo {
+	max-height: 300px;
+	width: auto;
+}
+
+.img-center {
+	text-align: center;
+}
+
+.story {
+	margin-left: -20px;
+	padding-bottom: 10px;
 }
 
 .btn.outline {
