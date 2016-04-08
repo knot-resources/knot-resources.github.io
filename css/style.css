@@ -31,6 +31,8 @@ body {
 	margin-bottom: 0;
 	background-image: url('../img/grow.png');
 	color: white;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .splash img {
@@ -40,6 +42,8 @@ body {
 
 .splash p {
 	text-align: center;
+	padding-top: 20px;
+	font-size: 1.5em;
 }
 
 .header p {
@@ -51,11 +55,25 @@ body {
 .main {
 	margin: auto;
 	max-width: 100%;
+	padding-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .main img {
 	width: 100%;
 	height: auto;
+}
+
+.main p {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.container-header {
+	padding-left: 15px;
+	padding-bottom: 20px;
 }
 
 .contact {
@@ -64,4 +82,23 @@ body {
 
 #knot-logo {
 	height: 100px;
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+	color: #fff;
+	border-radius: 0;
+}
+
+.btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
+	color: #356062;
+	border-color: #fff;
+	background: #fff;
+}
+
+.btn-default.outline:active, .btn-default.outline.active {
+	border-color: #fff;
+	color: #fff;
+	box-shadow: none;
 }
