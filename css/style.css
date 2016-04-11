@@ -181,12 +181,20 @@ textarea {
 	max-width: 200px;
 }
 
+#who {
+	background-color: #D4DCDC;
+}
+
 #who p {
 	font-size: 1em;
 }
 
 .claire-social {
 	margin-top: -25px;
+}
+
+.human {
+	text-align: center;
 }
 
 #knot-logo {
