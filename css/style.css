@@ -5,6 +5,8 @@ body {
 	background-color: #F7F7F7;
 }
 
+/* Header */
+
 .header {
 	background-color: #356062;
 	padding-top: 30px;
@@ -14,10 +16,16 @@ body {
 	color: #F7F7F7;
 }
 
+.header p {
+	padding-top: 5px;
+	padding-bottom: 0px;
+	font-size: 1.2em;
+}
+
 .social-media {
 	text-align: right;
 	padding-left: 5px;
-	margin-top: -5px;
+	margin-top: -30px;
 }
 
 @media (max-width: 960px) {
@@ -27,9 +35,13 @@ body {
 	}
 }
 
+/* Splash */
+
 .splash {
 	margin-bottom: 0;
-	background-image: url('../img/grow.png');
+	background-image: url('../img/postit.jpg');
+	background-position: center;
+	background-size: cover;
 	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -45,11 +57,24 @@ body {
 	font-size: 2em;
 }
 
-.header p {
-	padding-top: 5px;
-	padding-bottom: 0px;
-	font-size: 1.2em;
+@media (max-width: 960px) {
+	.splash p {
+		font-size: 1.4em;
+	}
 }
+
+.splash h2 {
+	text-align: center;
+	font-size: 2.5em;
+}
+
+@media (max-width: 960px) {
+	.splash h2 {
+		font-size: 2em;
+	}
+}
+
+/* Main Jumbotron Styles */
 
 .main {
 	margin: auto;
@@ -59,35 +84,45 @@ body {
 	padding-right: 10%;
 }
 
+@media (max-width: 960px) {
+	.main {
+		padding-bottom: 20px;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
+
 .main img {
 	width: 100%;
 	height: auto;
-	padding-bottom: 10px;
+	padding-bottom: 12px;
 }
 
 .main p {
-	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 }
 
-.main h2 {
+@media (max-width: 960px) {
+	.main p {
+		font-size: 1.3em;
+	}
+}
+
+#what p {
 	text-align: center;
 }
 
-.contact h2 {
-	color: white;
-	text-align: left;
-}
-
-#who {
-	background-color: #D4DCDC;
+.main .col-md-5 {
+	padding-bottom: 30px;
 }
 
 .container-header {
 	padding-left: 15px;
 	padding-bottom: 20px;
 }
+
+/* Contact */
 
 .contact {
 	background-color: #356062;
@@ -98,12 +133,28 @@ body {
 	text-align: left;
 }
 
+.contact h2 {
+	color: white;
+	text-align: left;
+}
+
+.backed {
+	background-color: #113C3E;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+}
+
 #fifty {
-	max-width: 250px;
+	margin-top: 10px;
+	max-width: 150px;
 }
 
 #phone {
-	font-size: 0.8em;
+	font-size: 0.em;
 }
 
 .footer {
@@ -128,19 +179,168 @@ textarea {
 	padding-left: 20px;
 }
 
+@media (max-width: 960px) {
+	.form {
+		padding-left: 0;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 960px) {
+	.contact-info {
+		text-align: center;
+		padding-top: 30px;
+	}
+	.contact-info p {
+		text-align: center;
+		font-size: 1em;
+		padding-bottom: 0;
+	}
+}
+
 .form-control {
 	border-radius: 0;
 }
 
+/* Customer Story */
+
+#customer-story {
+	background-color: #D4DCDC;
+	padding-bottom: 75px;
+}
+
+@media (max-width: 960px) {
+	#customer-story {
+		padding-bottom: 50px;
+	}
+}
+
+#customer-story p {
+	padding-top: 0px;
+	padding-bottom: 1px;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 1.4em;
+}
+
+@media (max-width: 960px) {
+	#customer-story p {
+		padding-left: 8%;
+		padding-right: 8%;
+		font-size: 1.2em;
+		text-align: center;
+	}
+}
+
+.story {
+	padding-bottom: 15px;
+}
+
+@media (min-width: 960px) {
+	.story {
+		margin-left: -20px;
+		padding-bottom: 10px;
+	}
+}
+
+.quote {
+	background-color: #F7F7F7;
+	padding: 10px;
+}
+
+.quote p {
+	margin-top: 10px;
+}
+
+#richard {
+	padding: 10px;
+	max-width: 200px;
+}
+
+/* Who We Are */
+
+#who {
+	background-color: #D4DCDC;
+}
+
+@media (max-width: 960px) {
+	#who {
+		text-align: center;
+	}
+}
+
+#who p {
+	font-size: 1em;
+}
+
+@media (max-width: 960px) {
+	#who img {
+		max-width: 80%;
+	}
+}
+
+.claire-social {
+	margin-top: -25px;
+}
+
+@media (max-width: 960px) {
+	.claire-social {
+		text-align: center;
+	}
+}
+
+.about {
+	text-align: left;
+	padding-left: 20px;
+}
+
+@media (max-width: 960px) {
+	.about {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+}
+
+/* Human Resources */
+
+.human {
+	text-align: center;
+}
+
+/* Logos */
+
 #knot-logo {
 	height: 100px;
 }
+
+#ubxd-logo {
+	max-height: 280px;
+	width: auto;
+}
+
+@media (max-width: 960px) {
+	#ubxd-logo {
+		max-width: 50%;
+		height: auto;
+	}
+}
+
+#ubxd-logo:hover {
+	opacity: 0.7; filter: alpha(opacity=70);
+}
+
+.img-center {
+	text-align: center;
+}
+
+/* Buttons and Links */
 
 .btn.outline {
 	background: none;
 	padding: 12px 22px;
 	color: #fff;
 	border-radius: 0;
+	border-width: 2px;
 }
 
 .btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
@@ -153,4 +353,40 @@ textarea {
 	border-color: #fff;
 	color: #fff;
 	box-shadow: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #F7F7F7;
+}
+
+/* mouse over link */
+a:hover {
+    color: #DEDEDE;
+}
+
+/* selected link */
+a:active {
+    color: #C5C5C5;
+}
+
+.claire-social a:link {
+	color: #626262;
+}
+
+.claire-social a:visited {
+	color: #4A4A4A;
+}
+
+.claire-social a:hover {
+	color: #949494;
+}
+
+.claire-social a:active {
+	color: #7b7b7b;
 }
