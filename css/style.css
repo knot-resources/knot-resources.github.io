@@ -223,3 +223,39 @@ textarea {
 	color: #fff;
 	box-shadow: none;
 }
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #F7F7F7;
+}
+
+/* mouse over link */
+a:hover {
+    color: #DEDEDE;
+}
+
+/* selected link */
+a:active {
+    color: #C5C5C5;
+}
+
+.claire-social a:link {
+	color: #626262;
+}
+
+.claire-social a:visited {
+	color: #4A4A4A;
+}
+
+.claire-social a:hover {
+	color: #949494;
+}
+
+.claire-social a:active {
+	color: #7b7b7b;
+}
