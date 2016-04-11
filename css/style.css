@@ -29,8 +29,9 @@ body {
 
 .splash {
 	margin-bottom: 0;
-	background-image: url('../img/knot.jpg');
+	background-image: url('../img/postit.jpg');
 	background-position: center;
+	background-size: cover;
 	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -44,6 +45,11 @@ body {
 .splash p {
 	text-align: center;
 	font-size: 2em;
+}
+
+.splash h2 {
+	text-align: center;
+	font-size: 2.5em;
 }
 
 .header p {
@@ -210,6 +216,7 @@ textarea {
 	padding: 12px 22px;
 	color: #fff;
 	border-radius: 0;
+	border-width: 2px;
 }
 
 .btn-default.outline:hover, .btn-default.outline:focus, .btn-default.outline:active, .btn-default.outline.active, .open > .dropdown-toggle.btn-default {
