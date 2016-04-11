@@ -192,6 +192,10 @@ textarea {
 	width: auto;
 }
 
+#ubxd-logo:hover {
+	opacity: 0.7; filter: alpha(opacity=70);
+}
+
 .img-center {
 	text-align: center;
 }
