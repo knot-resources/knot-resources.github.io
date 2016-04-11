@@ -113,6 +113,12 @@ body {
 	text-align: center;
 }
 
+@media (max-width: 960px) {
+	#what p {
+		text-align: left;
+	}
+}
+
 .main .col-md-5 {
 	padding-bottom: 30px;
 }
@@ -225,10 +231,7 @@ textarea {
 
 @media (max-width: 960px) {
 	#customer-story p {
-		padding-left: 8%;
-		padding-right: 8%;
 		font-size: 1.2em;
-		text-align: center;
 	}
 }
 
@@ -252,6 +255,10 @@ textarea {
 	margin-top: 10px;
 }
 
+.name {
+	text-align: right;
+}
+
 #richard {
 	padding: 10px;
 	max-width: 200px;
@@ -263,20 +270,8 @@ textarea {
 	background-color: #D4DCDC;
 }
 
-@media (max-width: 960px) {
-	#who {
-		text-align: center;
-	}
-}
-
 #who p {
 	font-size: 1em;
-}
-
-@media (max-width: 960px) {
-	#who img {
-		max-width: 80%;
-	}
 }
 
 .claire-social {
@@ -284,7 +279,7 @@ textarea {
 }
 
 @media (max-width: 960px) {
-	.claire-social {
+	.claire-photo {
 		text-align: center;
 	}
 }
