@@ -110,13 +110,7 @@ body {
 }
 
 #what p {
-	text-align: center;
-}
-
-@media (max-width: 960px) {
-	#what p {
-		text-align: left;
-	}
+	text-align: left;
 }
 
 .main .col-md-5 {
