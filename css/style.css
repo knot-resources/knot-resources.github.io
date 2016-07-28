@@ -403,3 +403,9 @@ a:active {
 .claire-social a:active {
 	color: #7b7b7b;
 }
+
+/* onboarding/improvement comment */
+p.comment {
+  font-size: 3em;
+  font-style: italic;
+}
