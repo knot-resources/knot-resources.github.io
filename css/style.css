@@ -92,7 +92,7 @@ body {
 	padding-right: 10%;
 }
 
-.main:nth-child(odd) {
+.main:nth-child(odd):not(.contact) {
   background-color: #D4DCDC;
 }
 
