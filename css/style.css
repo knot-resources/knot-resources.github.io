@@ -109,10 +109,6 @@ body {
 	}
 }
 
-#what p {
-	text-align: left;
-}
-
 .main .col-md-5 {
 	padding-bottom: 30px;
 }
@@ -200,6 +196,17 @@ textarea {
 
 .form-control {
 	border-radius: 0;
+}
+
+/* Intro */
+.intro {
+	padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+/* What we do */
+.what {
+  padding-top: 0px;
 }
 
 /* Customer Story */
