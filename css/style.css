@@ -344,6 +344,12 @@ textarea {
 	box-shadow: none;
 }
 
+.btn.action {
+	background-color: #f86820;
+	border-color: white;
+}
+
+
 /* unvisited link */
 a:link {
     color: #FFFFFF;
