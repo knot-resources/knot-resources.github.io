@@ -78,6 +78,10 @@ body {
 	background-image: url('../img/office-wide.png');
 }
 
+.splash.improvement {
+	background-image: url('../img/dance-wide.jpg');
+}
+
 /* Main Jumbotron Styles */
 
 .main {
@@ -86,6 +90,10 @@ body {
 	padding-bottom: 50px;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+.main:nth-child(odd) {
+  background-color: #D4DCDC;
 }
 
 @media (max-width: 960px) {
@@ -220,7 +228,6 @@ textarea {
 /* Customer Story */
 
 #customer-story {
-	background-color: #D4DCDC;
 	padding-bottom: 75px;
 }
 
@@ -274,10 +281,6 @@ textarea {
 }
 
 /* Who We Are */
-
-#who {
-	background-color: #D4DCDC;
-}
 
 #who p {
 	font-size: 1em;
