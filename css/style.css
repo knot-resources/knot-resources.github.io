@@ -74,6 +74,10 @@ body {
 	}
 }
 
+.splash.onboarding {
+	background-image: url('../img/office-wide.png');
+}
+
 /* Main Jumbotron Styles */
 
 .main {
@@ -207,6 +211,10 @@ textarea {
 /* What we do */
 .what {
   padding-top: 0px;
+}
+
+.what img:hover {
+  opacity: 0.8;
 }
 
 /* Customer Story */
