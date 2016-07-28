@@ -82,6 +82,10 @@ body {
 	background-image: url('../img/dance-wide.jpg');
 }
 
+.splash.innovation {
+	background-image: url('../img/grow-wide.png');
+}
+
 /* Main Jumbotron Styles */
 
 .main {
