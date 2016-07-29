@@ -9,7 +9,7 @@ body {
 
 .header {
 	background-color: #356062;
-	padding-top: 30px;
+	padding-top: 15px;
 	padding-bottom: 20px;
 	text-align: center;
 	margin-bottom: 0;
@@ -37,6 +37,13 @@ body {
 
 .header nav div.icon-links {
   vertical-align: bottom;
+}
+
+.header .subtitle {
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
 /* Splash */
@@ -330,7 +337,7 @@ textarea {
 /* Logos */
 
 #knot-logo {
-	height: 100px;
+	height: 90px;
 }
 
 #ubxd-logo {
