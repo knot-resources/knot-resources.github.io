@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example Post
+subtitle: this is the post subtitle
 ---
 
 # Heading 1

@@ -1,13 +1,13 @@
+.post-list-item {
+  margin-bottom: 25px;
+}
+
 .post-list-item h2 {
   display: inline;
 }
 
-.post-title {
-  font-size: 63px;
-}
-
 .post-body {
-  margin-bottom: 40px;
+  margin: 20px auto 40px auto;
 }
 
 .post-body img {
