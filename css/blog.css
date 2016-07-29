@@ -1,0 +1,15 @@
+.post-list-item h2 {
+  display: inline;
+}
+
+.post-title {
+  font-size: 63px;
+}
+
+.post-body {
+  margin-bottom: 40px;
+}
+
+.post-body img {
+  width: 100%;
+}

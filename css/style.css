@@ -373,41 +373,18 @@ textarea {
 }
 
 
-/* unvisited link */
-a:link {
-    color: #FFFFFF;
-}
+/* links */
+a:link { color: #f86820; }
+a:visited { color: #f75808; }
+a:hover { color: #fa9b6b; }
+a:active { color: #fcbc9c; }
 
-/* visited link */
-a:visited {
-    color: #F7F7F7;
-}
+a .fa { color: white; }
 
-/* mouse over link */
-a:hover {
-    color: #DEDEDE;
-}
-
-/* selected link */
-a:active {
-    color: #C5C5C5;
-}
-
-.claire-social a:link {
-	color: #626262;
-}
-
-.claire-social a:visited {
-	color: #4A4A4A;
-}
-
-.claire-social a:hover {
-	color: #949494;
-}
-
-.claire-social a:active {
-	color: #7b7b7b;
-}
+.claire-social a:link { color: #626262; }
+.claire-social a:visited { color: #4A4A4A; }
+.claire-social a:hover { color: #949494; }
+.claire-social a:active { color: #7b7b7b; }
 
 /* onboarding/improvement comment */
 p.comment {
