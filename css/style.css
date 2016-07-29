@@ -405,4 +405,5 @@ a .fa { color: white; }
 p.comment {
   font-size: 3em;
   font-style: italic;
+  text-align: center;
 }
